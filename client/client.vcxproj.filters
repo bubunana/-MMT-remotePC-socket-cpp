@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Feature">
+      <UniqueIdentifier>{5dbf5514-5829-4d08-b898-67ce250aba4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Feature">
+      <UniqueIdentifier>{baf40b61-7221-4302-b0cd-59ba2053d25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{0146c754-d440-4c72-abe3-a3f63bf7a445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{2680aadd-b7d6-4087-8660-d363e1a514d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource">
+      <UniqueIdentifier>{8f381f7a-ecd0-4a86-9ce5-782813bb742d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{86e889c7-7d92-4d5c-b6b8-b9cf740033af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveScreen.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryTree.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Heading.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ListProcess.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyLog.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ListApp.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Wnd.h">
+      <Filter>Header Files\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveScreen.cpp">
+      <Filter>Source Files\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryTree.cpp">
+      <Filter>Source Files\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ListProcess.cpp">
+      <Filter>Source Files\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyLog.cpp">
+      <Filter>Source Files\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ListApp.cpp">
+      <Filter>Source Files\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="client.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="client.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
